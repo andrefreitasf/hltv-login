@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --principal-color: #2D3844;
+  --secondary-color: #435971;
+  background-color: #1b2229;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  width: 320px;
+  height: 310px;
+  background-color: var(--principal-color);
+  margin: auto;
+  transform: translateY(55%);
+
+  padding: 15px;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+form {
+  display: block;
+}
+
+#logo {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.loginInput {
+  padding: 11px;
+  margin-bottom: 12px;
+  border-radius: 1px;
+  border: none;
+  width: 93%;
+  
+}
+
+.marcado {
+  color: white;
+}
+
+.esqueca {
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: #929a9e;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.login-button > a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+#up {
+  margin-top: 10px;
+  background-color: var(--secondary-color);
+  border: 0px none var(--secondary-color);
+
+}
+
+.login-button > a:hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+hr {
+  margin-top: 10px;
+  height: 0px;
+  border: 1px solid rgba(224, 224, 224, 0.404);
+}
+
+#bottom {
+  margin-top: 10px;
+  background-color: var(--principal-color);
+  border: 1px ridge rgb(50, 88, 105);
+}
+
+#bottom > a {
+  color: rgb(50, 88, 105);
+}
+
+/* rgb(50, 88, 105) */
+
+#bottom:hover {
+  background-color: var(--secondary-color);
+}
+
+#bottom > a:hover {
+  color: white;
+}
